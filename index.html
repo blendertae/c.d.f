@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cloudisk — 个人文件传输工具</title>
+  <style>
+    body {
+      font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.8;
+      color: #333;
+    }
+    h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    h2 { margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <h1>cloudisk</h1>
+
+  <h2>应用介绍</h2>
+  <p>
+    cloudisk 是一款<strong>个人自用</strong>的桌面端文件传输工具。
+    它在本地对文件进行端到端加密（AES-256-GCM），
+    然后将密文分片上传到<strong>用户自己的云盘</strong>（Google Drive 或 Dropbox），
+    供用户本人稍后下载解密。
+  </p>
+  <p>
+    本应用通过 Google OAuth 2.0 获取授权，
+    仅用于访问用户本人 Google Drive 中由本应用创建的文件，
+    不会访问用户的其他任何数据。
+  </p>
+
+  <h2>隐私政策（Privacy Policy）</h2>
+  <p><strong>最后更新：2026 年 9 月</strong></p>
+
+  <h3>1. 我们收集什么</h3>
+  <p>
+    本应用<strong>不收集、不存储、不传输</strong>任何用户个人信息到任何第三方服务器。
+    本应用没有自己的后端服务。
+  </p>
+
+  <h3>2. 数据存储在哪里</h3>
+  <p>
+    所有文件均在用户本地设备上加密，密文仅上传到用户本人授权的
+    Google Drive / Dropbox 账号中。除用户自己选择的云盘服务商外，
+    没有任何数据经过其他服务器。
+  </p>
+
+  <h3>3. OAuth 授权信息的使用</h3>
+  <p>
+    Google OAuth 凭证（access token / refresh token）仅保存在用户本地设备上，
+    仅用于访问用户自己的云盘文件，绝不会被分享或上传到其他地方。
+  </p>
+
+  <h3>4. 第三方服务</h3>
+  <p>
+    本应用仅与 Google Drive / Dropbox 官方 API 直接通信，
+    相应数据的处理遵循各自服务商的隐私政策。
+  </p>
+
+  <h3>5. 联系</h3>
+  <p>
+    如有疑问，请通过本应用配置的支持邮箱联系开发者。
+  </p>
+
+</body>
+</html>
